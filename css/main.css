@@ -46,9 +46,9 @@ header section nav{
 }
 .coders ul li{
     display: inline-block;
-    margin: 10px;
+    margin: 2%;
     position: relative;
-    width: 150px;
+    width: 28%;
 }
 .coders ul li:after{
     background:rgba(0,0,0,0.4);
