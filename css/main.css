@@ -1,0 +1,158 @@
+body{
+    font-family: Serif;
+    font-size: 16px;
+    margin: 0 auto;
+    width:40%;
+}
+header section img{
+    display: block;
+    margin: 30px auto;
+}
+header section nav{
+    display: block;
+    margin: 0 auto;
+}
+.about{
+    font-size: 20px;
+    text-align: center;
+    width: 55%;
+}
+.coders span{
+    bottom: 0;
+    color: white;
+    font-size: 13px;
+    margin: 0 10px 10px 0;
+    position: absolute;
+    right:0;
+    z-index: 20;
+}
+.coders h4{
+    font-size: 20px;
+    padding: 0 0 30px 0;
+    position: relative;
+}
+.coders .title:after{
+    border: 2px solid black;
+    content: '';
+    left:0;
+    position: absolute;
+    top:85%;
+    width: 8%;
+}
+.coders ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+.coders ul li{
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    width: 200px;
+}
+.coders ul li:after{
+    background:rgba(0,0,0,0.4);
+    content: '';
+    height:100%;
+    left:0;
+    opacity: 1;
+    position: absolute;
+    top:0;
+    width: 100%;
+}
+.group{
+    width: 100%;
+}
+.navigate{
+    padding: 10px 0 10px 0;
+    text-align: center;
+    border-bottom: solid black 2px;
+    border-top: solid black 2px;
+    line-height: 20px;
+}
+.navigate a{
+    color: #000;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.navigate li{
+    border-right: solid black 2px;
+    display: inline;
+    padding:0 30px 0 30px;
+}
+.navigate li:last-child{
+    border-right:hidden;
+}
+.paragraph{
+    margin: 50px 0;
+    position: relative;
+}
+.paragraph:before,.paragraph:after{
+    content: '';
+    display: block;
+    left: 45%;
+    position: absolute;
+    width: 8%;
+    border: 1px solid gray;
+}
+.paragraph .about{
+    margin:0px auto;
+    padding: 20px 0;
+}
+.profile{
+    width: 100%;
+    vertical-align: top;
+}
+/*Coder Detail*/
+h1{
+    margin: 0 0 0 3%;
+}
+.head h1{
+    font-size: 40px;
+    text-align: center;
+    margin:0 0 27px 0;
+}
+.head img{
+    border-radius: 50%;
+    display: block;
+    max-width: 150px;
+    margin: 30px auto 0 auto;
+}
+.head p{
+    font-size: 19px;
+    text-align: center;
+    padding: 0 10% 0 10%;
+}
+.main{
+    border: 1px solid black;
+    margin: 30px;
+}
+.port img{
+    max-width: 100%;
+}
+.port ul{
+    list-style-type: none;
+}
+.port ul li{
+    display: inline-block;
+    margin: 20px;
+    width: 150px;
+}
+.skills div{
+    margin: 8% 0 8% 8%;
+}
+.skills span{
+    background-color: gray;
+    color: white;
+    padding: 2.5% 0 2.5% 3%;
+}
+.skills .html span{
+    padding-right: 64%;
+}
+.skills .css span{
+    padding-right: 40%;
+}
+.skills .js span{
+    padding-right: 10%;
+}
